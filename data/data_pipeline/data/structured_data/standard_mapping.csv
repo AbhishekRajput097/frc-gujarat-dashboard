@@ -1,0 +1,42 @@
+mapping_id,raw_standard_name,standard_id
+1,BAL MANDIR,1
+2,BALVATIKA,1
+3,NR TO UKG,1
+4,NUR,1
+5,PH,1
+6,Play Group,1
+7,Pre-Primary,1
+8,SINI,1
+9,JR. KG,2
+10,KG,2
+11,Shisuta-1,2
+12,SOPAN-1,2
+13,Shisuta-2,3
+14,SOPAN-2,3
+15,SR. KG,3
+16,1,4
+17,2,5
+18,3,6
+19,4,7
+20,5,8
+21,6,9
+22,7,10
+23,8,11
+24,9,12
+25,9(BOYS),12
+26,9(GIRLS),12
+27,10,13
+28,10(BOYS),13
+29,10(GIRLS),13
+30,General - 11,14
+31,11 Boys,14
+32,11 Girls,14
+33,11 Arts,15
+34,11 Girls Sci,16
+35,Science - 11,16
+36,General - 12,17
+37,12 Boys,17
+38,12 Girls,17
+39,12 Arts,18
+40,12 Girls Sci,19
+41,Science - 12,19

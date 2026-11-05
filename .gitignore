@@ -1,0 +1,29 @@
+# secrets
+.env
+.env.*
+!.env.example
+credentials.json
+credentials.txt
+*.pem
+*.key
+
+# dependencies / build
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.next/
+dist/
+build/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# large files (>100MB are not tracked)
+_large_files/
+*.zip

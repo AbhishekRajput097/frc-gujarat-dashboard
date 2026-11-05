@@ -1,0 +1,25 @@
+Steps To Load the Data From Local (PostgreSQL) to the Cloud Database (Supabase)
+
+1. Open Command Prompt -- cd "C:\Program Files\PostgreSQL\15\bin"
+
+2. Export Database using Command -- pg_dump -U postgres -d frc_analytics -F c -f frc_analytics.dump (After entering the local PostgreSQL password the dump file was created at the same location).
+
+3. Enable SSL (Required by Supabase) set PGSSLMODE=require
+
+4. Upload to supabase using command -- 
+
+pg_restore ^
+--verbose ^
+--clean ^
+--no-owner ^
+--no-privileges ^
+-h db.ixcutpulaztyesbugcbw.supabase.co ^
+-U postgres ^
+-d postgres ^
+frc_analytics.dump
+
+Or Single Line Command -- 
+
+pg_restore --verbose --clean --no-owner --no-privileges -h db.ixcutpulaztyesbugcbw.supabase.co -U postgres -d postgres frc_analytics.dump
+
+After Entering the Supabase password, the dataset is uploaded on the supabase and viewable
